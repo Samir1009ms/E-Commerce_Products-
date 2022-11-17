@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'İnter', sans-serif;
+}
+
+#user {
+    width: 100vw;
+    height: 400px;
+    margin-top: 10em;
+    background-color: rgb(99, 122, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.img {
+    width: 445px;
+    height: 610px;
+    background-image: url("../img/Rectangle\ 2\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    box-shadow: 17px 17px 8px #361921;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+}
+
+.text .text--name {}
+
+.text .text--name .user--name {
+    font-weight: 700;
+    font-size: 49.6px;
+    color: #361921;
+}
+
+.text .text--name .graphics {
+    font-weight: 300;
+    font-size: 31.4366px;
+    color: #000000;
+
+}
+
+.user--text {}
+
+.user--text .text1 {
+    font-weight: 200;
+    font-size: 23.6056px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.user--text .text2 {
+    font-weight: 700;
+}
+
+#user2 {
+    width: 100%;
+    height: 600px;
+    margin-top: 10em;
+    padding: 100px;
+    background: #361921;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    color: #fff;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+}
+
+.photo .img2 {
+    width: 92px;
+    height: 122px;
+
+}
+
+.photo .img3 {
+    width: 92px;
+    height: 122px;
+}
+
+.photo .txt {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.photo .txt p {}
+
+.artikl {
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 23.6056px;
+    line-height: 180.52%;
+    text-align: center;
+    color: #FFF;
+
+}
+
+#user3 {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.img4 {
+    width: 1440px;
+    height: 679px;
+    background-image: url("../img/Rectangle\ 5.svg");
+    display: flex;
+    display: -webkit-inline-box;
+}
+
+.img4 .text {
+    width: 775px;
+    height: 915px;
+    text-align: center;
+    justify-content: center;
+    font-size: 29px;
+    margin-left: 180px;
+    color: #FFF;
+
+}
+
+.img4 .margin {
+    margin-left: 177px;
+}
+
+.img4 div .icon {
+    position: absolute;
+    width: 154px;
+    height: 720px;
+    margin-left: 22px;
+}
+
+.img4 .iconn .icon2 {
+    position: absolute;
+    width: 154px;
+    height: 610px;
+    margin-top: 231px;
+
+
+
+}
+
+#footer {
+    width: 1440px;
+    height: 600px
+}
+
+.top {
+    text-align: center;
+    padding: 84px;
+
+
+}
+
+.top h1 {
+    font-size: 38px;
+}
+
+.login {
+    text-align: center;
+}
+
+.login .name {
+    width: 40%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 25px;
+
+
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.submit {
+    text-align: right;
+    width: 1010px;
+    height: 150px;
+    padding-top: 15px;
+
+}
+
+.submit .buton {
+    background-color: #361921;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#left {
+    width: 1440px;
+    height: 58px;
+    text-align: center;
+    background-color: #361921;
+}
+
+.box {
+    text-align: center;
+    height: 15px;
+
+
+}
+
+.box p {
+    color: #FFF;
+    opacity: 0.7;
+    padding-top: 15px;
+}

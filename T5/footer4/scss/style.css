@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  padding: 30px 70px;
+  background-color: #fff;
+}
+
+#main {
+  width: 1340px;
+  height: 338px;
+}
+#main div {
+  position: absolute;
+  width: 526px;
+  height: 170px;
+  left: calc(50% - 525px);
+  top: 0px;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 80px;
+}
+#main div h3 {
+  font-size: 24px;
+  color: #252B42;
+}
+#main div p {
+  color: #737373;
+  font-size: 14px;
+  max-width: 161px;
+  padding-top: 25px;
+}
+#main div ul {
+  display: flex;
+  list-style: none;
+  padding-top: 25px;
+}
+#main div ul li {
+  padding-right: 20px;
+}
+#main div ul li a {
+  width: 24px;
+  height: 24px;
+}
+#main table {
+  width: 526px;
+  height: 170px;
+  left: calc(50% - 450px);
+  top: 0px;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 40px;
+  position: absolute;
+  margin-left: 500px;
+  text-align: left;
+}
+#main table tr th {
+  color: #252B42;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+#main table tr th a {
+  text-decoration: none;
+  color: #252B42;
+}
+#main table tr td {
+  padding-top: 15px;
+  color: #737373;
+  font-size: 14px;
+}
+#main table tr td a {
+  text-decoration: none;
+  color: #252B42;
+}
+
+#footerr {
+  position: absolute;
+  width: 1340px;
+  height: 76px;
+  padding-top: 36px;
+  background-color: #ececec;
+}
+#footerr div {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+#footerr div p {
+  font-size: 14px;
+  color: #737373;
+}/*# sourceMappingURL=style.css.map */

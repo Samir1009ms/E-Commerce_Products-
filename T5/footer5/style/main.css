@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  padding: 30px 70px;
+  background-color: #2785dc;
+}
+
+#box {
+  width: 1340px;
+  height: 338px;
+}
+#box div {
+  position: absolute;
+  width: 526px;
+  height: 170px;
+  left: calc(50% - 525px);
+  top: 0px;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 80px;
+}
+#box div h3 {
+  font-size: 24px;
+  color: #fff;
+}
+#box div p {
+  color: #fff;
+  font-size: 14px;
+  max-width: 161px;
+  padding-top: 25px;
+}
+#box div ul {
+  display: flex;
+  list-style: none;
+  padding-top: 25px;
+}
+#box div ul li {
+  padding-right: 20px;
+}
+#box div ul li a {
+  width: 24px;
+  height: 24px;
+}
+#box table {
+  width: 526px;
+  height: 170px;
+  left: calc(50% - 450px);
+  top: 0px;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+  gap: 40px;
+  position: absolute;
+  margin-left: 500px;
+  text-align: left;
+}
+#box table tr th {
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+#box table tr th a {
+  text-decoration: none;
+  color: #fff;
+}
+#box table tr td {
+  color: #fff;
+  font-size: 14px;
+  padding-top: 15px;
+}
+#box table tr td a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#box2 {
+  width: 1340px;
+  height: 76px;
+  padding-top: 36px;
+  background-color: #2785dc;
+}
+#box2 div {
+  text-align: center;
+}
+#box2 div p {
+  font-size: 14px;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

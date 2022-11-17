@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#box {
+    width: 1440px;
+    height: 492px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1050px;
+    height: 492px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 112px 0px;
+    gap: 50px;
+
+    .bottom {
+        width: 1045px;
+        height: 268px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+
+        .kart {
+            width: 329px;
+            height: 268px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+
+            &--form {
+                width: 348px;
+                height: 122px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 25px;
+
+                .icon {
+                    width: 50px;
+                    height: 50px;
+                    background: red;
+                    padding: 10px;
+                    border-radius: 26px;
+                }
+
+                .info {
+                    width: 196px;
+                    height: 72px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                }
+
+                .name {
+                    width: 96px;
+                    height: 24px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+
+                .text {
+                    width: 196px;
+                    height: 32px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,396 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner {
+  width: 100%;
+  height: 80%;
+  /* height: 100%; */
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.conteiner .left {
+  width: 60%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conteiner .left .plash {
+  width: 100%;
+  height: 100%;
+}
+.conteiner .right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 12px; */
+  gap: 30px;
+  padding-top: 30px;
+}
+.conteiner .right h3 {
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+.conteiner .right .focus {
+  width: 45%;
+  text-align: center;
+  opacity: 0.4;
+  font-size: 19px;
+}
+.conteiner .right .pc {
+  width: 100%;
+  height: 30%;
+}
+.conteiner .right .hover {
+  padding-bottom: 15px;
+}
+.conteiner .right .hover .link {
+  width: 70px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.conteiner .right .frame {
+  padding-top: 2px;
+  width: 80px;
+  height: 35px;
+  text-decoration: none;
+  display: flex;
+  color: #000;
+  opacity: 0.8;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+.conteiner .right .price {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 11px;
+}
+.conteiner .right .price .pul {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 4px;
+  color: #23856D;
+  opacity: 0.5;
+}
+.conteiner .right .price .dollar {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 4px;
+  color: #2c5e0c;
+}
+.conteiner .right .color {
+  display: flex;
+  margin-top: 10px;
+}
+.conteiner .right .color .blue {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .right .color .green {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .right .color .orange {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .right .color .black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+
+#footer {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+}
+
+.help {
+  display: flex;
+  width: 80%;
+  height: auto;
+  justify-content: space-between;
+}
+.help .cart {
+  width: 20%;
+  height: auto;
+}
+.help .cart--box {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.help .cart--box .bot {
+  font-size: 40px;
+  color: #E74040;
+  padding-right: 10px;
+}
+.help .cart--box .alt .fritl {
+  padding-bottom: 10px;
+}
+.help .cart--box .alt .ecol {
+  opacity: 0.6;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner {
+    flex-direction: column;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: 90%;
+  }
+  .conteiner .left .plash {
+    width: 100%;
+    height: 82%;
+  }
+  .conteiner .right {
+    width: 100%;
+    gap: 18px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+  }
+  .help {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    height: 100%;
+  }
+  .help .cart {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner {
+    flex-direction: column;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: 90%;
+  }
+  .conteiner .left .plash {
+    width: 100%;
+    height: 82%;
+  }
+  .conteiner .right {
+    width: 100%;
+    gap: 18px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    height: 20% !important;
+    align-items: center;
+  }
+  .help {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    height: 100%;
+  }
+  .help .cart {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #header {
+    width: 99%;
+    height: 80%;
+  }
+  #header .conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+  #header .conteiner .left {
+    width: 100%;
+    height: 90%;
+  }
+  #header .conteiner .left .plash {
+    width: 100%;
+    height: 82%;
+  }
+  #header .conteiner .right {
+    width: 100%;
+    gap: 18px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+  }
+  #footer .help {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    height: 100%;
+  }
+  #footer .help .cart {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: 90%;
+  }
+  .conteiner .left .plash {
+    width: 97%;
+    height: 82%;
+  }
+  .conteiner .right {
+    width: 100%;
+    gap: 18px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+  }
+  .help {
+    flex-direction: row;
+    display: flex;
+    width: 80%;
+    height: 20%;
+  }
+  .help .cart {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #header {
+    width: 99%;
+    height: 70% !important;
+  }
+  .conteiner {
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner .left {
+    width: 97%;
+    height: 90%;
+  }
+  .conteiner .left .plash {
+    width: 100%;
+    height: 82%;
+  }
+  .conteiner .right {
+    width: 92%;
+    gap: 18px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteiner .right .pc {
+    width: 80%;
+    height: 30%;
+  }
+  #footer {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+  }
+  .help {
+    flex-direction: row !important;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .help .cart {
+    width: 80%;
+    height: 100%;
+  }
+  .help .cart .cart--box {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

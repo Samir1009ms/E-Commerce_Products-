@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 1440px;
+    height: 534px;
+    position: relative;
+}
+
+.container {
+
+    width: 1440px;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 112px 0px;
+
+    .box {
+        width: 1050px;
+        height: 534px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 112px 0px;
+
+        .top {
+            width: 607px;
+            height: 310px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .icon {
+                width: 50px;
+                height: 50px;
+                background-color: red;
+                padding: 10px;
+                border-radius: 27px
+            }
+
+            .main {
+                width: 587px;
+                height: 202px;
+                gap: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    width: 587px;
+                    height: 50px;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    text-align: center;
+                }
+
+                .input {
+                    width: 313px;
+                    height: 52px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    align-content: center;
+                    text-align: center;
+                    justify-content: space-between;
+
+                    .left {
+                        width: 141px;
+                        height: 52px;
+                        border: none;
+                        border-radius: 6px;
+                        background-color: #008fff;
+                        color: #fff;
+                        cursor: pointer;
+
+                        &:hover{
+                            transform: scale(0.99);
+                            background-color: red;
+                            border: 2px solid  #008fff;
+                        }
+
+                    }
+
+                    .right {
+                        width: 162px;
+                        height: 52px;
+                        border: 2px solid #0d94ec;
+                        border-radius: 9px;
+                        color: #0d94ec;
+                        background-color: #fff;
+                        cursor: pointer;
+                        &:hover{
+                            transform: scale(0.99);
+                            background-color: red;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                p {
+                    width: 447px;
+                    height: 40px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    text-align: center;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

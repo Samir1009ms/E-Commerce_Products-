@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header {
+    text-align: center;
+    padding: 40px;
+
+    h6 {
+        font-size: 18px;
+        opacity: 0.7;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 15px;
+
+    }
+}
+
+
+#product {
+    width: 100%;
+
+    .conteiner {
+        padding: 55px;
+        height: 100%;
+        text-align: center;
+
+        .kart {
+            width: 400px;
+            padding: 20px;
+            text-align: center;
+            display: inline-block;
+            margin-top: 50px;
+
+            &--photo {
+                width: 100%;
+                height: 450px;
+                border-radius: 10px;
+                margin-top: 13px;
+
+            }
+
+
+            &__info {
+                text-align: center;
+
+                h4 {
+                    font-size: 16px;
+                    padding: 5px;
+                }
+
+                p {
+                    font-size: 17px;
+                    opacity: 0.7;
+                    padding: 5px;
+                }
+
+                .text {
+                    opacity: 0.6;
+                    padding: 5px;
+
+                    .prise {
+                        color: green;
+
+                    }
+                }
+
+            }
+
+            .color {
+                display: flex;
+                justify-content: center;
+                padding: 3px;
+
+                .blue {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 10px;
+                    background-color: blue;
+                    padding: 3px;
+                }
+
+                .green {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 10px;
+                    background-color: green;
+                }
+
+                .orange {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 10px;
+                    background-color: orange;
+                }
+
+                .black {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 10px;
+                    background-color: black;
+                }
+
+
+
+
+            }
+        }
+
+
+
+    }
+
+
+}

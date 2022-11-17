@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#top {
+  width: 1440px;
+  height: 734px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 1059px;
+  height: 734px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 0px;
+}
+.container .row {
+  width: 1029px;
+  height: 414px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.container .row .user {
+  width: 313px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 30px;
+}
+.container .row .user .fixed {
+  width: 94px;
+  height: 7px;
+  background: #E74040;
+}
+.container .row .user h1 {
+  width: 196px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.container .row .user p {
+  width: 308px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.5;
+}
+.container .row .user .link {
+  width: 101px;
+  height: 24px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .row .user .link .icon {
+  width: 9px;
+  height: 16px;
+}
+.container .row .kart {
+  width: 328px;
+  height: 414px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.container .row .kart--info {
+  width: 328px;
+  height: 414px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .row .kart--info .form {
+  width: 348px;
+  height: 122px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.container .row .kart--info .form--icon {
+  width: 50px;
+  height: 50px;
+  background: red;
+  padding: 10px;
+  border-radius: 26px;
+}
+.container .row .kart--info .form--info {
+  width: 196px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.container .row .kart--info .form--info .name {
+  width: 96px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.container .row .kart--info .form--info .text {
+  width: 196px;
+  height: 32px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#top {
+  width: 1440px;
+  height: 616px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1050px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 112px 0px;
+}
+.container .row {
+  width: 607px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: lavenderblush;
+}
+.container .row h6 {
+  width: 209px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #23A6F0;
+  text-align: center;
+}
+.container .row h2 {
+  width: 505px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  color: #252B42;
+}
+.container .row p {
+  width: 347px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #737373;
+  text-align: center;
+}
+.container .row .store {
+  width: 508px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .row .store .ios {
+  width: 248px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: -1px 1px 9px 1px #f00;
+  cursor: pointer;
+  transition: 0.46s;
+}
+.container .row .store .ios:hover {
+  transform: scale(1.16);
+  background-color: rgba(51, 101, 200, 0.603);
+  color: #fafafa;
+}
+.container .row .store .apple {
+  width: 33px;
+  height: 38px;
+}
+.container .row .store .text {
+  width: 134px;
+  height: 54px;
+}
+.container .row .store .text h5 {
+  width: 134px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.container .row .store .text h4 {
+  width: 107px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.container .row .store .android {
+  width: 250px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #252B42;
+  color: #fafafa;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  box-shadow: -1px 1px 9px 1px #2864fb;
+  cursor: pointer;
+  transition: 0.46s;
+}
+.container .row .store .android:hover {
+  transform: scale(1.16);
+  background-color: rgba(255, 0, 0, 0.599);
+}
+.container .row .store .android .galaxy {
+  width: 35px;
+  height: 38px;
+}
+.container .row .store .android .text {
+  width: 134px;
+  height: 54px;
+}
+.container .row .store .android .text h5 {
+  width: 134px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.container .row .store .android .text h4 {
+  width: 127px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}/*# sourceMappingURL=style.css.map */

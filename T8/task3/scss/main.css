@@ -1,0 +1,512 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#main {
+  width: 100%;
+  height: 940px;
+  background-color: #e2a6a6;
+}
+
+.conteiner {
+  width: 1344px;
+  height: 940px;
+  display: flex;
+  margin: 10px;
+  padding: 15px;
+}
+.conteiner .left {
+  width: 620px;
+  height: 644px;
+}
+.conteiner .left img {
+  width: 620px;
+  height: 880px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.right {
+  width: 720px;
+  height: 644px;
+  padding: 80px 0px;
+}
+.right div {
+  width: 507px;
+  height: 170px;
+  text-align: -webkit-center;
+  justify-content: center;
+}
+.right div h4 {
+  font-size: 20px;
+  opacity: 0.6;
+  padding-bottom: 10px;
+}
+.right div h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.right div .footer {
+  width: 266px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.right .top {
+  width: 508px;
+  height: 708px;
+  display: flex;
+}
+.right .top .card {
+  width: 200px;
+  height: 500px;
+  position: relative;
+  margin: 5px;
+}
+.right .top .card img {
+  width: 170px;
+  height: 210px;
+  position: relative;
+}
+.right .top .card .lens {
+  position: absolute;
+  left: 28px;
+  top: 13px;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 4px;
+  width: 35px;
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.right .top .card .iconn {
+  width: 30px;
+  height: 37px;
+  position: absolute;
+  top: 158px;
+  left: 90px;
+  display: flex;
+}
+.right .top .card .iconn .icon {
+  width: 31px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.right .top .card .text {
+  width: 182px;
+  height: 270px;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 6px;
+  background-color: #fff;
+}
+.right .top .card .text .launge {
+  width: 146px;
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.right .top .card .text .launge .english {
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #23A6F0;
+  font-weight: 700;
+}
+.right .top .card .text .launge .ulduz {
+  width: 45px;
+  height: 26px;
+  font-size: 15px;
+  background-color: black;
+  border-radius: 11px;
+  color: #fff;
+}
+.right .top .card .text .launge .ulduz .star {
+  width: 20px;
+  height: 20px;
+}
+.right .top .card .text h5 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.right .top .card .text p {
+  font-size: 14px;
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+.right .top .card .text .frame {
+  padding-top: 2px;
+  width: 80px;
+  height: 20px;
+  text-decoration: none;
+  display: flex;
+  color: #000;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.right .top .card .text .frame img {
+  width: 26px;
+  height: 17px;
+}
+.right .top .card .text .price {
+  width: 88px;
+  height: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 11px;
+}
+.right .top .card .text .price .pul {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 4px;
+  color: #23856D;
+  opacity: 0.5;
+}
+.right .top .card .text .price .dollar {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 4px;
+  color: #2c5e0c;
+}
+.right .top .card .text .color {
+  width: 75px;
+  height: 20px;
+  display: flex;
+  margin-top: 10px;
+}
+.right .top .card .text .color .blue {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.right .top .card .text .color .green {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.right .top .card .text .color .orange {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.right .top .card .text .color .black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.right .top .card .text .pages {
+  width: 190px;
+  height: 50px;
+  display: flex;
+  padding-top: 15px;
+}
+.right .top .card .text .pages .tarix {
+  padding-right: 10px;
+  font-size: 13px;
+}
+.right .top .card .text .pages .tarix .saat {
+  width: 15px;
+  height: 15px;
+}
+.right .top .card .text .son {
+  width: 100px;
+  height: 28px;
+  text-align: center;
+  border: 1px solid #23A6F0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+.right .top .card .text .son:hover {
+  transform: scale(1.4);
+  background-color: #46096f;
+  color: rgb(189, 189, 189);
+}
+.right .top .card .text .son .learn {
+  font-size: 14px;
+  padding-top: 4px;
+}
+.right .top .card .text .son .learn::after {
+  content: ">";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: #2b5af5;
+  font-size: 18px;
+  transform: scaleY(1.3);
+  padding-bottom: 15px;
+}
+
+#top {
+  width: 100%;
+  height: 950px;
+  background-color: #e2a6a6;
+}
+
+.conteiner {
+  width: 1340px;
+  height: 100%;
+  display: flex;
+}
+.conteiner .right {
+  width: 720px;
+  height: 860px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conteiner .right .footer {
+  width: 700px;
+  height: 855px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conteiner .left .text {
+  width: 720px;
+  height: 200px;
+  text-align: -webkit-center;
+  justify-content: center;
+}
+.conteiner .left .text .featured {
+  width: 190px;
+  height: 30px;
+  font-size: 20px;
+  opacity: 0.6;
+}
+.conteiner .left .text .feat {
+  width: 394px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.conteiner .left .text .pointer {
+  padding-top: 15px;
+  width: 285px;
+  height: 60px;
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 15px;
+}
+.conteiner .left .main {
+  width: 646px;
+  height: 708px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.conteiner .left .main .photo {
+  width: 240px;
+  height: 708px;
+}
+.conteiner .left .main .photo .left {
+  position: relative;
+}
+.conteiner .left .main .photo .left img {
+  width: 243px;
+  height: 300px;
+  position: relative;
+}
+.conteiner .left .main .photo .left .sale {
+  position: absolute;
+  top: 25px;
+  font-size: 19px;
+  background: red;
+  width: 50px;
+  height: 24px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  left: 20px;
+}
+.conteiner .left .main .photo .left .icon {
+  width: 176px;
+  height: 50px;
+  position: absolute;
+  top: 230px;
+  left: 33px;
+}
+.conteiner .left .main .photo .left .icon .bottom {
+  width: 43px;
+  height: 43px;
+  background-color: #fff;
+  border-radius: 23px;
+  margin: 4px;
+  padding: 7px;
+}
+.conteiner .left .main .photo .left .center {
+  width: 243px;
+  height: 280px;
+  padding-top: 16px;
+  padding-left: 13px;
+  background-color: #fff;
+}
+.conteiner .left .main .photo .left .center .eng {
+  width: 214px;
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+}
+.conteiner .left .main .photo .left .center .eng .dil {
+  font-size: 20px;
+  color: #23A6F0;
+  font-weight: 700;
+}
+.conteiner .left .main .photo .left .center .eng .favori {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 14px;
+  width: 50px;
+  padding: 1px;
+}
+.conteiner .left .main .photo .left .center .eng .favori .star {
+  width: 26px;
+  height: 14px;
+  display: flex;
+  text-align: -webkit-center;
+}
+.conteiner .left .main .photo .left .center h5 {
+  font-size: 18px;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+.conteiner .left .main .photo .left .center p {
+  width: 150px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.conteiner .left .main .photo .left .center .download {
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  opacity: 0.7;
+}
+.conteiner .left .main .photo .left .center .download .buton {
+  width: 22px;
+  height: 19px;
+  margin-right: 7px;
+}
+.conteiner .left .main .photo .left .center .box {
+  width: 88px;
+  height: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 11px;
+}
+.conteiner .left .main .photo .left .center .box .layer {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 4px;
+  color: #23856D;
+  opacity: 0.5;
+}
+.conteiner .left .main .photo .left .center .box .dollar {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 4px;
+  color: #2c5e0c;
+}
+.conteiner .left .main .photo .left .center .color {
+  width: 75px;
+  height: 20px;
+  display: flex;
+  margin-top: 10px;
+}
+.conteiner .left .main .photo .left .center .color .blue {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .left .center .color .green {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .left .center .color .orange {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .left .center .color .black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .left .center .date {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  padding-top: 15px;
+}
+.conteiner .left .main .photo .left .center .date .tarix {
+  padding-right: 10px;
+  font-size: 13px;
+}
+.conteiner .left .main .photo .left .center .date .tarix .saat {
+  width: 15px;
+  height: 15px;
+}
+.conteiner .left .main .photo .left .center .submit {
+  width: 130px;
+  height: 38px;
+  text-align: center;
+  border: 1px solid #23A6F0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+.conteiner .left .main .photo .left .center .submit:hover {
+  transform: scale(1.4);
+  background-color: #46096f;
+  color: rgb(189, 189, 189);
+}
+.conteiner .left .main .photo .left .center .submit .lear {
+  width: 89px;
+  height: 22px;
+  padding-left: 20px;
+  font-size: 14px;
+  padding-top: 9px;
+}
+.conteiner .left .main .photo .left .center .submit .lear::after {
+  content: ">";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: #2b5af5;
+  font-size: 18px;
+  transform: scaleY(1.3);
+  padding-bottom: 15px;
+}/*# sourceMappingURL=main.css.map */

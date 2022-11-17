@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#top {
+    position: relative;
+    width: 1440px;
+    height: 746px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 1440px;
+    height: 745px;
+    opacity: 96%;
+}
+
+.container {
+    width: 1050px;
+    height: 745px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 112px 0px;
+
+
+    .main {
+        width: 760px;
+        height: 558px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px;
+        gap: 30px;
+        text-align: center;
+   
+            .box {
+                width: 609px;
+                height: 50px;
+                font-size: 45px;
+                text-align: center;
+                font-weight: 700;
+                line-height: 20px;
+                padding: 15px;
+                color: rgb(36, 69, 217);
+            }
+    
+            .more {
+                width: 432px;
+                height: 100px;
+                font-size: 40px;
+                line-height: 50px;
+                font-weight: 700;
+            }
+
+
+
+
+        .input {
+            width: 443px;
+            height: 58px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            .text {
+                width: 443px;
+                height: 58px;
+                border: none;
+                background-color: #fff;
+                border-radius: 10px;
+                outline: none;
+                padding: 10px 15px;
+
+            }
+
+            .buton {
+                width: 117px;
+                height: 58px;
+                position: absolute;
+                border: none;
+                background-color: #308fd2;
+                color: #fff;
+                border-radius: 4px;
+                text-align: center;
+                cursor: pointer;
+                transition: calc(0.56s);
+
+                &:hover {
+                    transform: scale(0.99);
+                    background-color: rgb(217, 67, 67);
+                    color: #071824;
+                }
+            }
+            
+
+        }
+        
+        .name {
+                width: 333px;
+                height: 40px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                opacity: 0.8;
+            }
+
+
+        .icon {
+            width: 242px;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            &--img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+    }
+
+
+}

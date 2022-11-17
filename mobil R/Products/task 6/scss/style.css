@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 85%;
+  height: 85%;
+  margin: 0px auto;
+}
+.container .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .card .nav {
+  padding: 20px 10px 0px 10px;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+.container .card .nav h5 {
+  font-size: 23px;
+  font-weight: 600;
+}
+.container .card .nav--list {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.container .card .nav--list .blue {
+  color: #007eff;
+}
+.container .card .nav--list p {
+  color: darkgray;
+}
+.container .card .nav .ox .contur {
+  border: 1px solid darkgray;
+  border-radius: 20px;
+  padding: 7px;
+}
+.container .card .hr {
+  width: 85%;
+  height: 20px;
+}
+.container .card .hr--list {
+  width: 85%;
+  height: 1px;
+  border: 1px solid darkgray;
+  position: absolute;
+}
+.container .card .corvet {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.container .card .corvet--img {
+  width: 20%;
+  text-align: center;
+}
+.container .card .corvet--img h5 {
+  font-size: 19px;
+  line-height: 30px;
+}
+.container .card .corvet--img a {
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: darkgray;
+}
+.container .card .corvet--img .price {
+  display: flex;
+  /* margin: 0px auto; */
+  justify-content: center;
+  gap: 6px;
+  line-height: 40px;
+}
+.container .card .corvet--img .price h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(128, 128, 128, 0.5607843137);
+}
+.container .card .corvet--img .price h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #189739;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav .nav--list {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .nav h5 {
+    font-size: 21px;
+    padding-bottom: 10px;
+  }
+  .corvet {
+    flex-direction: column;
+    align-items: center;
+  }
+  .corvet .corvet--img {
+    width: 100% !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .corvet {
+    flex-direction: row;
+    align-items: center;
+  }
+  .corvet .corvet--img {
+    width: 50% !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .corvet {
+    flex-direction: row;
+    align-items: center;
+  }
+  .corvet .corvet--img {
+    width: 20% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

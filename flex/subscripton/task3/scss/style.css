@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#top {
+  position: relative;
+  width: 1440px;
+  height: 746px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 1440px;
+  height: 745px;
+  opacity: 96%;
+}
+
+.container {
+  width: 1050px;
+  height: 745px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 0px;
+}
+.container .main {
+  width: 760px;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  gap: 30px;
+}
+.container .main .header {
+  width: 463px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: #fff;
+}
+.container .main h2 {
+  width: 432px;
+  height: 100px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.container .main .name {
+  width: 333px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.8;
+}
+.container .main .input {
+  width: 600px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container .main .input .text {
+  width: 600px;
+  height: 58px;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px 15px;
+}
+.container .main .input .buton {
+  width: 117px;
+  height: 58px;
+  position: absolute;
+  border: none;
+  background-color: #89ceff;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.56s;
+}
+.container .main .input .buton:hover {
+  transform: scale(0.99);
+  background-color: rgb(110, 110, 110);
+  color: #89ceff;
+}
+.container .main .son {
+  width: 609px;
+  height: 50px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 15px;
+  color: #fff;
+}
+.container .main .icon {
+  width: 242px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.container .main .icon--img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */

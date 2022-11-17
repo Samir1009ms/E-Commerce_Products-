@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  width: 1340px;
+  height: 142px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 800px;
+}
+#header .h {
+  width: 236px;
+  height: 58px;
+  padding-left: 195px;
+}
+#header .h h3 {
+  width: 236px;
+  height: 58px;
+  font-size: 24px;
+  gap: 10px;
+}
+#header .u {
+  width: 236px;
+  height: 24px;
+}
+#header .u ul {
+  display: flex;
+  list-style: none;
+}
+#header .u ul li {
+  padding-right: 15px;
+}
+.hrr {
+  width: 1057px;
+  height: 0px;
+  padding-left: 195px;
+}
+.hrr hr {
+  width: 1057px;
+  height: 0px;
+}
+
+#main {
+  width: 1050px;
+  height: 270px;
+  display: flex;
+}
+#main .ulli {
+  width: 1050px;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 195px;
+}
+#main ul {
+  width: 90px;
+  list-style: none;
+  min-width: 209px;
+  list-style: none;
+}
+#main ul li {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding-bottom: 10px;
+  color: #737373;
+  font-size: 14px;
+  list-style: none;
+}
+#main ul li a {
+  color: #737373;
+  list-style: none;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+#main h5 {
+  padding-bottom: 20px;
+  color: #252B42;
+  font-size: 16px;
+}
+
+.link {
+  width: 321px;
+  height: 131px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 64px;
+  padding-right: 112px;
+}
+.link ul {
+  color: #737373;
+  list-style: none;
+}
+.link ul h5 {
+  color: #252B42;
+  font-size: 16px;
+}
+.link ul li {
+  height: 58px;
+  display: flex;
+}
+.link ul li .button {
+  width: 180px;
+  background: #23A6F0;
+  border: none;
+  border-radius: 8px;
+  font-weight: 400;
+}
+.link ul .tt {
+  font-size: 12px;
+  color: #737373;
+}
+
+#footer {
+  width: 1340px;
+  height: 76px;
+  padding-top: 36px;
+  background-color: #fafafa;
+}
+#footer div {
+  text-align: initial;
+  padding-left: 195px;
+}
+#footer div p {
+  font-size: 14px;
+  color: #737373;
+}/*# sourceMappingURL=main.css.map */

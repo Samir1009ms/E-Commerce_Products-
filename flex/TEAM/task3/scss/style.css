@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 98vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 700px;
+}
+
+#header {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  width: 1053px;
+  height: 600px;
+  padding: 112px 0px;
+  top: 0;
+  left: 250px;
+}
+.container .text {
+  width: 1000px;
+  height: 100px;
+  text-align: -webkit-center;
+  margin-bottom: 70px;
+}
+.container .text h2 {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+}
+.container .text .teks {
+  width: 400px;
+  height: 35px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  opacity: 0.6;
+}
+.container .top {
+  width: 1045px;
+  height: 306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 30px;
+}
+.container .top--img {
+  width: 238px;
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 40px;
+  background-color: rgba(171, 234, 205, 0.5215686275);
+}
+.container .top--img h6 {
+  width: 64px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: rgb(137, 167, 251);
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.container .top--img h5 {
+  width: 126px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.container .top--img p {
+  width: 146px;
+  height: 40px;
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1x;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  width: 100%;
+  height: auto !important;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 15px;
+  flex-direction: row;
+}
+.container .left {
+  width: 100%;
+}
+.container .left img {
+  width: 620px;
+  height: 880px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .right {
+  width: 100%;
+}
+.container .right div {
+  text-align: -webkit-center;
+  justify-content: center;
+}
+.container .right div h4 {
+  font-size: 20px;
+  opacity: 0.6;
+  padding-bottom: 10px;
+}
+.container .right div h2 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.container .right div .footer {
+  width: 266px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.container .right .top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container .right .top .card {
+  width: 100%;
+  position: relative;
+  margin: 5px;
+}
+.container .right .top .card--box {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  position: relative;
+}
+.container .right .top .card--box img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+}
+.container .right .top .card--box .lens {
+  position: absolute;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 4px;
+  left: 5px;
+  top: 30px;
+  width: 40px;
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.container .right .top .card--box .iconn {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  left: 110px;
+}
+.container .right .top .card--box .iconn .icon {
+  width: 31px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.container .right .top .card .text {
+  text-align: left;
+}
+.container .right .top .card .text .launge {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.container .right .top .card .text .launge .english {
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #23A6F0;
+  font-weight: 700;
+}
+.container .right .top .card .text .launge .ulduz {
+  font-size: 15px;
+  background-color: black;
+  border-radius: 11px;
+  color: #fff;
+}
+.container .right .top .card .text .launge .ulduz .star {
+  width: 20px;
+  height: 20px;
+}
+.container .right .top .card .text h5 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.container .right .top .card .text p {
+  font-size: 14px;
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+.container .right .top .card .text .frame {
+  padding-top: 2px;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  color: #000;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.container .right .top .card .text .frame img {
+  width: 26px;
+  height: 17px;
+}
+.container .right .top .card .text .price {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 11px;
+}
+.container .right .top .card .text .price .pul {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 4px;
+  color: #23856D;
+  opacity: 0.5;
+}
+.container .right .top .card .text .price .dollar {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 4px;
+  color: #2c5e0c;
+}
+.container .right .top .card .text .color {
+  display: flex;
+  margin-top: 10px;
+}
+.container .right .top .card .text .color .blue {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.container .right .top .card .text .color .green {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.container .right .top .card .text .color .orange {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.container .right .top .card .text .color .black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.container .right .top .card .text .pages {
+  display: flex;
+  padding-top: 15px;
+}
+.container .right .top .card .text .pages .tarix {
+  padding-right: 10px;
+  font-size: 13px;
+}
+.container .right .top .card .text .pages .tarix .saat {
+  width: 15px;
+  height: 15px;
+}
+.container .right .top .card .text .son {
+  text-align: center;
+  border: 1px solid #23A6F0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+.container .right .top .card .text .son:hover {
+  transform: scale(0.987);
+  background-color: #46096f;
+  color: rgb(189, 189, 189);
+}
+.container .right .top .card .text .son .learn {
+  font-size: 14px;
+  padding-top: 4px;
+}
+.container .right .top .card .text .son .learn::after {
+  content: ">";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: #2b5af5;
+  font-size: 18px;
+  transform: scaleY(1.3);
+  padding-bottom: 15px;
+}
+
+#top {
+  width: 99%;
+}
+
+.conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.conteiner .right .footer {
+  width: 700px;
+  height: 855px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conteiner .left .text {
+  text-align: -webkit-center;
+  justify-content: center;
+}
+.conteiner .left .text .featured {
+  font-size: 20px;
+  opacity: 0.6;
+}
+.conteiner .left .text .feat {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.conteiner .left .text .pointer {
+  height: 60px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+.conteiner .left .main {
+  display: flex;
+}
+.conteiner .left .main .photo {
+  width: 100%;
+  position: relative;
+  margin: 5px;
+}
+.conteiner .left .main .photo .lest {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  position: relative;
+}
+.conteiner .left .main .photo .lest img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+}
+.conteiner .left .main .photo .lest .sale {
+  position: absolute;
+  text-decoration: none !important;
+  background-color: red;
+  border-radius: 4px;
+  left: 5px;
+  top: 30px;
+  width: 40px;
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.conteiner .left .main .photo .lest .icon {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  left: 110px;
+}
+.conteiner .left .main .photo .lest .icon .bottom {
+  width: 31px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.conteiner .left .main .photo .center {
+  text-align: left;
+}
+.conteiner .left .main .photo .center .eng {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.conteiner .left .main .photo .center .eng .dil {
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #23A6F0;
+  font-weight: 700;
+}
+.conteiner .left .main .photo .center .eng .favori {
+  font-size: 15px;
+  background-color: black;
+  border-radius: 11px;
+  color: #fff;
+}
+.conteiner .left .main .photo .center .eng .favori .star {
+  width: 20px;
+  height: 20px;
+}
+.conteiner .left .main .photo .center h5 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.conteiner .left .main .photo .center p {
+  font-size: 14px;
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+.conteiner .left .main .photo .center .download {
+  padding-top: 2px;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  color: #000;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.conteiner .left .main .photo .center .download .buton {
+  width: 26px;
+  height: 17px;
+}
+.conteiner .left .main .photo .center .box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 11px;
+}
+.conteiner .left .main .photo .center .box .layer {
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 4px;
+  color: #23856D;
+  opacity: 0.5;
+}
+.conteiner .left .main .photo .center .box .dollar {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 4px;
+  color: #2c5e0c;
+}
+.conteiner .left .main .photo .center .color {
+  display: flex;
+  margin-top: 10px;
+}
+.conteiner .left .main .photo .center .color .blue {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .center .color .green {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .center .color .orange {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .center .color .black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.conteiner .left .main .photo .center .date {
+  display: flex;
+  padding-top: 15px;
+}
+.conteiner .left .main .photo .center .date .tarix {
+  padding-right: 10px;
+  font-size: 13px;
+}
+.conteiner .left .main .photo .center .date .tarix .saat {
+  width: 15px;
+  height: 15px;
+}
+.conteiner .left .main .photo .center .submit {
+  text-align: center;
+  border: 1px solid #23A6F0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+.conteiner .left .main .photo .center .submit:hover {
+  transform: scale(0.99);
+  background-color: #46096f;
+  color: rgb(189, 189, 189);
+}
+.conteiner .left .main .photo .center .submit .lear {
+  font-size: 14px;
+  padding-top: 9px;
+}
+.conteiner .left .main .photo .center .submit .lear::after {
+  content: ">";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: #2b5af5;
+  font-size: 18px;
+  transform: scaleY(1.3);
+  padding-bottom: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+  #main {
+    width: 98%;
+    height: 100%;
+  }
+  .container {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .left {
+    height: auto;
+    width: 100%;
+  }
+  .container .left img {
+    width: 100%;
+    height: auto;
+  }
+  .container .right {
+    width: 100%;
+    height: auto;
+  }
+  .container .right div {
+    width: 100%;
+  }
+  .container .top {
+    flex-direction: column !important;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .container .top .card {
+    width: 100%;
+    height: auto;
+  }
+  .container .top .card .card--box {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .container .top .card .card--box img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .container .top .card .card--box .lens {
+    left: 10px;
+    top: 33px;
+  }
+  .container .top .card .card--box .iconn {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .container .top .card .card--box .iconn .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  #top {
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+  .conteiner .right {
+    height: auto;
+    width: 100%;
+  }
+  .conteiner .right .footer {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left .text {
+    width: 100%;
+  }
+  .conteiner .main {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .conteiner .main .photo {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .main .photo .lest {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .conteiner .main .photo .lest img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .conteiner .main .photo .lest .sale {
+    left: 10px;
+    top: 33px;
+  }
+  .conteiner .main .photo .lest .icon {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .conteiner .main .photo .lest .icon .bottom {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  #top {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1px !important;
+    padding: 1px !important;
+  }
+  .container .right {
+    height: auto;
+    width: 100%;
+  }
+  .container .right .footer {
+    width: 100%;
+    height: auto;
+  }
+  .container .left {
+    width: 100%;
+    height: auto;
+  }
+  .container .left .text {
+    width: 100%;
+  }
+  .container .main {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .container .main .photo {
+    width: 100%;
+    height: auto;
+  }
+  .container .main .photo .lest {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .container .main .photo .lest img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .container .main .photo .lest .sale {
+    left: 10px;
+    top: 33px;
+  }
+  .container .main .photo .lest .icon {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .container .main .photo .lest .icon .bottom {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  main {
+    width: 100%;
+  }
+  #main {
+    width: 99%;
+    height: 100%;
+  }
+  .container {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .left {
+    height: auto;
+    width: 100%;
+  }
+  .container .left img {
+    width: 100%;
+    height: auto;
+  }
+  .container .right {
+    width: 100%;
+    height: auto;
+  }
+  .container .right div {
+    width: 100%;
+  }
+  .container .top {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .container .top .card {
+    width: 100%;
+    height: auto;
+  }
+  .container .top .card .card--box {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .container .top .card .card--box img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .container .top .card .card--box .lens {
+    left: 10px;
+    top: 33px;
+  }
+  .container .top .card .card--box .iconn {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .container .top .card .card--box .iconn .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  #top {
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .conteiner .right {
+    height: auto;
+    width: 100%;
+  }
+  .conteiner .right .footer {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left .text {
+    width: 100%;
+  }
+  .conteiner .main {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .conteiner .main .photo {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .main .photo .lest {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .conteiner .main .photo .lest img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .conteiner .main .photo .lest .sale {
+    left: 10px;
+    top: 33px;
+  }
+  .conteiner .main .photo .lest .icon {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .conteiner .main .photo .lest .icon .bottom {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  #main {
+    width: 99%;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .left {
+    height: auto;
+    width: 100%;
+  }
+  .container .left img {
+    width: 100%;
+    height: auto;
+  }
+  .container .right {
+    width: 100%;
+    height: auto;
+  }
+  .container .right div {
+    width: 100%;
+  }
+  .container .top {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .container .top .card {
+    width: 100%;
+    height: auto;
+  }
+  .container .top .card .card--box {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .container .top .card .card--box img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .container .top .card .card--box .lens {
+    left: 10px;
+    top: 33px;
+  }
+  .container .top .card .card--box .iconn {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .container .top .card .card--box .iconn .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  #top {
+    width: 100%;
+    height: 100%;
+  }
+  .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .conteiner .right {
+    height: auto;
+    width: 100%;
+  }
+  .conteiner .right .footer {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left .text {
+    width: 100%;
+  }
+  .conteiner .main {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .conteiner .main .photo {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .main .photo .lest {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .conteiner .main .photo .lest img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .conteiner .main .photo .lest .sale {
+    left: 10px;
+    top: 33px;
+  }
+  .conteiner .main .photo .lest .icon {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .conteiner .main .photo .lest .icon .bottom {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  #main {
+    width: 99%;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .container .left {
+    height: auto;
+    width: 100%;
+  }
+  .container .left img {
+    width: 100%;
+    height: auto;
+  }
+  .container .right {
+    width: 100%;
+    height: auto;
+  }
+  .container .right div {
+    width: 100%;
+  }
+  .container .top {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .container .top .card {
+    width: 100%;
+    height: auto;
+  }
+  .container .top .card .card--box {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .container .top .card .card--box img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .container .top .card .card--box .lens {
+    left: 10px;
+    top: 33px;
+  }
+  .container .top .card .card--box .iconn {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .container .top .card .card--box .iconn .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  main {
+    width: 99%;
+    height: 100vh;
+  }
+  #top {
+    width: 99%;
+    height: 100%;
+  }
+  .conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .conteiner .right {
+    height: auto;
+    width: 100%;
+  }
+  .conteiner .right .footer {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .left .text {
+    width: 100%;
+  }
+  .conteiner .main {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+  }
+  .conteiner .main .photo {
+    width: 100%;
+    height: auto;
+  }
+  .conteiner .main .photo .lest {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .conteiner .main .photo .lest img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+  }
+  .conteiner .main .photo .lest .sale {
+    left: 10px;
+    top: 33px;
+  }
+  .conteiner .main .photo .lest .icon {
+    bottom: 40px !important;
+    left: 0px;
+    top: auto;
+  }
+  .conteiner .main .photo .lest .icon .bottom {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+}/*# sourceMappingURL=main.css.map */

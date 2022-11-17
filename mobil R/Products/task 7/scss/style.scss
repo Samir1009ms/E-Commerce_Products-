@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#mobile {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.container {
+    width: 85%;
+    height: 85%;
+    margin: 0px auto;
+
+    .cart {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+        .nav {
+            width: 100%;
+            text-align: center;
+            line-height: 30px;
+            padding: 20px 10px 0px 10px;
+            justify-content: space-between;
+
+
+            h5 {
+                font-size: 23px;
+                font-weight: 600;
+
+            }
+
+            p {
+                font-size: 18px;
+                color: darkgray;
+            }
+
+
+        }
+
+        &--info {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 20px;
+
+            .cart--img {
+                width: 25%;
+
+                text-align: center;
+
+                img {
+                    width: 90%;
+                }
+
+                h5 {
+                    font-size: 19px;
+                    line-height: 30px;
+                }
+
+                a {
+                    font-size: 20px;
+                    line-height: 30px;
+                    text-decoration: none;
+                    color: darkgray;
+                }
+
+                .price {
+                    display: flex;
+                    /* margin: 0px auto; */
+                    justify-content: center;
+                    gap: 6px;
+                    line-height: 40px;
+
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #8080808f;
+                    }
+
+                    h4 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #189739;
+                    }
+                }
+
+                .color {
+                    display: flex;
+                    margin-top: 10px;
+                    justify-content: center;
+        
+                    .blue {
+        
+                        width: 15px;
+                        height: 15px;
+                        background-color: blue;
+                        border-radius: 10px;
+                        margin: 8px 2px;
+                    }
+        
+                    .green {
+                        width: 15px;
+                        height: 15px;
+                        background-color: green;
+                        border-radius: 10px;
+                        margin: 8px 2px;
+                    }
+        
+                    .orange {
+                        width: 15px;
+                        height: 15px;
+                        background-color: orange;
+                        border-radius: 10px;
+                        margin: 8px 2px;
+                    }
+        
+                    .black {
+        
+                        width: 15px;
+                        height: 15px;
+                        background-color: black;
+                        border-radius: 10px;
+                        margin: 8px 2px;
+                    }
+        
+                }
+
+
+            }
+        }
+
+
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .cart {
+        flex-direction: column;
+        align-items: center;
+
+        .cart--img {
+            width: 100% !important;
+        }
+    }
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cart {
+        flex-direction: row;
+        align-items: center;
+
+        .cart--img {
+            width: 50% !important;
+        }
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cart {
+        flex-direction: row;
+        align-items: center;
+
+        .cart--img {
+            width: 25% !important;
+        }
+    }
+}

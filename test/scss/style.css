@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#botton {
+  width: 100%;
+  height: 731px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  left: 60px;
+  justify-content: center;
+}
+.header--name {
+  width: 30%;
+  height: 60px;
+  margin-left: 60px;
+  padding-left: 135px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.header--name h3 {
+  font-size: 24px;
+}
+.header--pages {
+  width: 40%;
+  height: 60px;
+  padding: 15px;
+  margin: 10px;
+}
+.header--pages a {
+  margin-left: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.7;
+}
+.header--search {
+  display: flex;
+  width: 30%;
+  margin-right: 50px;
+}
+.header--search .link {
+  width: 130px;
+  height: 60px;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.header--search .link a {
+  text-decoration: none;
+  color: #23A6F0;
+}
+.header--search .link span {
+  font-weight: bold;
+  color: #23A6F0;
+}
+.header--search .icon {
+  width: 180px;
+  height: 60px;
+  margin-top: 8px;
+  padding-top: 5px;
+}
+
+#top {
+  width: 1440px;
+  height: 640px;
+  position: absolute;
+}
+
+.photo {
+  width: 1440px;
+  height: 640px;
+  background-image: url(../photo/img/shop-hero-3-product-slide-2.svg);
+  text-align: -webkit-center;
+  justify-content: center;
+}
+.photo .kursor {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 123px;
+  margin-top: 100px;
+  padding-top: 165px;
+}
+.photo .kursor .after {
+  width: 200px;
+  height: 200px;
+  text-align: -webkit-left;
+  position: absolute;
+  transform: scaleY(1.7);
+}
+.photo .kursor .after::after {
+  content: "<";
+  color: #fdfdfd;
+  width: 100px;
+  height: 110px;
+  position: absolute;
+  font-size: 100px;
+}
+.photo--text {
+  width: 701px;
+  height: 554px;
+  margin-top: 38px;
+  padding-top: 38px;
+}
+.photo--text div {
+  width: 701px;
+  height: 330px;
+  margin-top: 50px;
+  padding-top: 50px;
+  color: #fff;
+}
+.photo--text div .top {
+  width: 679px;
+  height: 80px;
+  font-size: 58px;
+  padding-top: 34px;
+}
+.photo--text div .center {
+  width: 530px;
+  height: 60px;
+  font-size: 20.6px;
+  font-weight: 400;
+  margin-top: 25px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.photo--text .bottom {
+  width: 204px;
+  height: 62px;
+  border-radius: 5px;
+  border: none;
+  background-color: #23A6F0;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 26px;
+  margin-right: 3px;
+  cursor: pointer;
+  transition: all 0.35s linear;
+}
+.photo--text .bottom:hover {
+  transform: scale(1.4);
+  background-color: #5a0707;
+  color: rgb(222, 227, 84);
+}
+
+#vules {
+  width: 1440px;
+  height: 392px;
+}
+
+#shop {
+  width: 1440px;
+  height: 392px;
+  text-align: -webkit-center;
+}
+
+.cards {
+  width: 1084px;
+  height: 392px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards div {
+  width: 332px;
+  height: 232px;
+}
+#product {
+  width: 1440px;
+  height: 895px;
+}
+
+.card {
+  width: 1077px;
+  height: 895px;
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+.card--cover {
+  width: 389px;
+  height: 796px;
+}
+.card--cover img {
+  width: 389px;
+  height: 750px;
+}
+.card--cover2 {
+  width: 658px;
+  height: 799px;
+}
+.card--cover2 .nav {
+  width: 658px;
+  height: 50px;
+  display: flex;
+  font-size: 16px;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+.card--cover2 .nav h6 {
+  width: 214px;
+  height: 24px;
+}
+.card--cover2 .nav div {
+  text-align: center;
+  display: flex;
+  width: 295px;
+  height: 44px;
+}
+.card--cover2 .nav div .blue {
+  color: #23A6F0;
+  font-size: 14px;
+}
+.card--cover2 .nav div h6 {
+  opacity: 0.7;
+  font-size: 14px;
+}
+.card--cover2 .liner {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.card--cover2 .liner::after {
+  content: "";
+  border-bottom: 1px;
+  width: 45%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 43.5%;
+}
+.card--cover2 .corvet {
+  display: flex;
+  width: 657px;
+  height: 727px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 8px;
+  padding-left: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.card--cover2 .corvet div {
+  width: 183px;
+  height: 324px;
+}
+.card--cover2 .corvet div img {
+  width: 183px;
+  height: 162px;
+}
+.card--cover2 .corvet div h5 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.card--cover2 .corvet div a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.7;
+  color: #000;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.card--cover2 .corvet div .price {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.card--cover2 .corvet div .price h3 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 4px;
+  color: #23856D;
+  opacity: 0.5;
+}
+.card--cover2 .corvet div .price h4 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 4px;
+  color: #23856D;
+}/*# sourceMappingURL=style.css.map */

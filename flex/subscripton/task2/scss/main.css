@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#box {
+  width: 1440px;
+  height: 630px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  width: 1050px;
+  height: 610px;
+  top: 0;
+  padding: 112px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container .content {
+  width: 600px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.container .content h2 {
+  width: 582px;
+  height: 39px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.container .content .help {
+  width: 311px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.6;
+}
+.container .content .input {
+  width: 600px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.container .content .input .email {
+  width: 600px;
+  height: 58px;
+  border: none;
+  background-color: rgba(194, 185, 174, 0.431372549);
+  border-radius: 10px;
+  outline: none;
+  padding: 10px 15px;
+  left: 0;
+  top: 0;
+  font-weight: 700;
+}
+.container .content .input .submit {
+  width: 600px;
+  height: 58px;
+  border: none;
+  background-color: #89ceff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.78s;
+}
+.container .content .input .submit:hover {
+  transform: scale(0.99);
+  background-color: black;
+  color: #fff;
+}
+.container .content .end {
+  width: 311px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.6;
+  line-height: 20px;
+}/*# sourceMappingURL=main.css.map */

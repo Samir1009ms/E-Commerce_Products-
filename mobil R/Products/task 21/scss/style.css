@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  margin: 0px auto;
+}
+.container .product {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 20px;
+}
+.container .product--list {
+  width: 25%;
+  list-style: none;
+  text-align: left;
+}
+.container .product--list h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.container .product--list .list {
+  width: 100%;
+  display: flex;
+}
+.container .product--list .list--img {
+  width: 45%;
+}
+.container .product--list .list div {
+  height: 68%;
+  font-weight: 600;
+  align-self: center;
+  line-height: 35px;
+}
+.container .product--list .list div h6 {
+  font-size: 12px;
+}
+.container .product--list .list div span {
+  font-size: 12px;
+  color: darkgray;
+  margin: 0px 3px;
+}
+.container .product--list .list div span .green {
+  color: darkgreen;
+}
+.container .product .right {
+  width: 25%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.container .product .right hr {
+  width: 100%;
+  height: 0.5px;
+}
+.container .product .right h3 {
+  height: 5%;
+}
+.container .product .right--proyekt {
+  width: 100%;
+  margin-top: 5%;
+}
+.container .product .right--proyekt .right--img {
+  width: 25%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  .container .product {
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .product--list {
+    text-align: center;
+    width: 100%;
+  }
+  .container .product--list .list {
+    justify-content: center;
+  }
+  .container .product--list .list--img {
+    width: 40%;
+  }
+  .container .product--list .list div {
+    width: 30%;
+    font-size: 16px;
+  }
+  .container .product .right {
+    width: 100%;
+    text-align: center;
+  }
+  .container .product .right .icon {
+    justify-content: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1044px) {
+  .container {
+    width: 100% !important;
+    height: 100%;
+  }
+  .container .product {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .container .product--list {
+    width: 32%;
+    height: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container .product--list h5 {
+    height: 5% !important;
+  }
+  .container .product--list .list {
+    justify-content: center;
+  }
+  .container .product--list .list--img {
+    width: 40%;
+  }
+  .container .product--list .list div {
+    width: 30%;
+    font-size: 16px;
+  }
+  .container .product .right {
+    width: 32%;
+    gap: 30px;
+  }
+  .container .product .right .right--text {
+    padding-top: 10px;
+  }
+  .container .product .right .icon {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */

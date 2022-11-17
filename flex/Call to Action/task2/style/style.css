@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#box {
+  width: 1440px;
+  height: 664px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1440px;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #252B42;
+}
+.container .main {
+  width: 1050px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 0px;
+}
+.container .main .top {
+  width: 607px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.container .main .top .text {
+  width: 607px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: #fff;
+}
+.container .main .top .text h2 {
+  width: 587px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.container .main .top .text p {
+  width: 463px;
+  height: 40px;
+  opacity: 0.7;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.container .main .top .button {
+  width: 292px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 30px;
+  justify-content: center;
+  border: none;
+  background-color: #71baff;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.container .main .top h6 {
+  width: 209px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #ECECEC;
+}/*# sourceMappingURL=style.css.map */

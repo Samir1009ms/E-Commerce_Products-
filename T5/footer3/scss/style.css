@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  width: 1440px;
+  height: 111px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+}
+#header div {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+#header div ul {
+  padding-left: 10px;
+  list-style: none;
+}
+#header div ul li {
+  width: 200px;
+}
+#header div ul li .hh {
+  font-size: 14px;
+  padding-bottom: 5px;
+  width: 150px;
+}
+#header div ul li p {
+  font-size: 12px;
+  max-width: 150px;
+  width: 150px;
+}
+#header .imgg .imgg {
+  width: 50px;
+}
+#header .imgg .imgg img {
+  width: 52px;
+  height: 35px;
+  display: flex;
+}
+
+#main {
+  width: 1440px;
+  height: 270px;
+}
+#main .lists {
+  width: 148px;
+  height: 170px;
+  display: flex;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 220px;
+}
+#main ul {
+  width: 190px;
+  list-style: none;
+  min-width: 170px;
+}
+#main ul .iconn {
+  min-width: 230px;
+}
+#main ul .iconn .img {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+#main ul li {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding-bottom: 10px;
+  color: #737373;
+  font-size: 14px;
+}
+#main ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+#main ul h5 {
+  padding-bottom: 15px;
+  color: #252B42;
+}
+
+#footer {
+  width: 1440px;
+  height: 142px;
+  display: flex;
+  background-color: #fafafa;
+  gap: 215px;
+}
+#footer ul {
+  width: 509px;
+  height: 62px;
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 220px;
+}
+#footer ul h1 {
+  font-size: 24px;
+  color: #252B42;
+  width: 460px;
+}
+#footer ul li {
+  font-size: 14px;
+  color: #737373;
+}
+#footer .text {
+  padding-top: 40px;
+  padding-left: 195px;
+}
+#footer .buton {
+  padding-left: 136px;
+  padding-right: 36px;
+  padding-top: 30px;
+  margin: 23px;
+  text-align: center;
+  justify-content: center;
+}
+#footer .buton .submit {
+  border-radius: 5px;
+  background-color: #23A6F0;
+  border: none;
+  color: #fff;
+  width: 163px;
+  height: 52px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

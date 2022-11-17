@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    padding: 30px 70px;
+    background-color: #fff;
+}
+
+
+#top {
+    display: flex;
+    width: 1340px;
+    height: 142px;
+    gap: 300px;
+    background-color: #ececec;
+
+    .text {
+        width: 509px;
+        height: 62px;
+        margin: 23px;
+        padding-top: 12px;
+        padding-left: 165px;
+
+        h1 {
+            min-width: 700px;
+            padding-bottom: 10px;
+            font-size: 24x;
+            color: #252B42;
+        }
+
+        p {
+            color: #737373;
+            font-size: 14px;
+
+        }
+
+    }
+
+    .buton {
+        padding-left: 136px;
+        padding-right: 36px;
+        padding-top: 12px;
+        margin: 23px;
+        text-align: center;
+        justify-content: center;
+
+        .submit {
+            border-radius: 5px;
+            background-color: #23A6F0;
+            border: none;
+            color: #fff;
+            width: 163px;
+            height: 52px;
+            cursor: pointer;
+
+        }
+    }
+}
+
+#center {
+    width: 1050px;
+    height: 270px;
+
+    .ulli {
+        width: 1050px;
+        height: 270px;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 64px;
+    }
+
+    ul {
+        width: 90px;
+        list-style: none;
+        min-width: 209px;
+
+        li {
+            column-gap: 10px;
+            padding-bottom: 10px;
+            color: #737373;
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .img {
+            width: 24px;
+            height: 24px;
+            justify-content: center;
+        }
+
+        h5 {
+            padding-bottom: 15px;
+            color: #252B42;
+        }
+    }
+}
+
+#footer {
+    width: 1340px;
+    height: 74px;
+    display: flex;
+    gap: 460px;
+    background-color: #ececec;
+    padding-top: 30px;
+
+    .metn {
+        width: 600px;
+        height: 24px;
+        padding-left: 64px;
+
+        p {
+            font-size: 14px;
+
+        }
+    }
+
+    .svg {
+        width: 236px;
+        height: 24px;
+
+
+        a {
+            padding-right: 10px;
+
+            img {}
+        }
+    }
+}

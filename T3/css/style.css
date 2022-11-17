@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'İnter', sans-serif;
+}
+
+#section {
+    width: 100vw;
+    height: 400px;
+    margin-top: 60px;
+    background-color: rgb(241, 232, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 68px;
+}
+
+.img {
+    background-image: url("../img/Rectangle\ 2.svg");
+    width: 445px;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    box-shadow: 18px 18px 6px #8795AF;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+}
+
+.main .height {}
+
+.main .height .basliq {
+    font-weight: 700;
+    font-size: 49.6px;
+    line-height: 60px;
+    color: #CE2D64;
+}
+
+.main .height .orta {
+    font-weight: 300;
+    font-size: 31.4366px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.main .son {
+    font-weight: 200;
+    font-size: 23.6056px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.main .son .p1 {
+    font-weight: 200;
+}
+
+.main .son .s1 {
+    font-weight: 700;
+}
+
+#main2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10em;
+    background-color: #CE2D64;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    color: #000;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.bas .photo {
+    width: 92px;
+    height: 122px;
+}
+
+.bas .texttt {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bas .texttt .p {}
+
+.bas .photo2 {
+    width: 92px;
+    height: 122px;
+}
+
+.metnn {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 23.6056px;
+    line-height: 180.52%;
+    text-align: center;
+    color: #000;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+
+}
+
+.imag {
+    width: 1440px;
+    height: 679px;
+    background-image: url("../img/Rectangle\ 10.svg");
+    display: flex;
+    display: -webkit-inline-box;
+}
+
+.imag .the {
+    width: 775px;
+    height: 915px;
+    text-align: center;
+    justify-content: center;
+    font-size: 29px;
+    margin-left: 180px;
+    color: rgb(253, 253, 253);
+    padding-top: 420px;
+
+}
+
+.imag .margin {
+    margin-left: 177px;
+}
+
+.imag div .pictur {
+    position: absolute;
+    width: 135px;
+    height: 750px;
+    margin-left: 22px;
+}
+
+.imag .small .icon {
+    position: absolute;
+    width: 135px;
+    height: 610px;
+    margin-top: 231px;
+
+
+
+}
+
+#center {
+    width: 1440px;
+    height: 600px
+}
+
+.holder {
+    text-align: center;
+    padding: 84px;
+
+
+}
+
+.holder .sentr {
+    font-size: 38px;
+    color: #CE2D64;
+}
+
+.login {
+    text-align: center;
+}
+
+.login .name {
+    width: 40%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 25px;
+
+
+}
+
+.submit {
+    text-align: right;
+    width: 1010px;
+    height: 150px;
+    padding-top: 15px;
+
+}
+
+::placeholder {
+    color: #CE2D64;
+}
+
+
+.submit .buton {
+    background-color: #CE2D64;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#button {
+    width: 1440px;
+    height: 58px;
+    text-align: center;
+    background-color: #CE2D64;
+}
+
+.button {
+    text-align: center;
+    height: 15px;
+
+
+}
+
+.button p {
+    color: #FFF;
+    padding-top: 20px;
+    font-size: 12px;
+}
