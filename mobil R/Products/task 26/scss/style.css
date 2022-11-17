@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  margin: 0px auto;
+}
+.container .product {
+  width: 85%;
+  height: 80%;
+  align-items: end;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 20px;
+}
+.container .product .left {
+  width: 30%;
+}
+.container .product .left--list {
+  width: 100%;
+  list-style: none;
+  text-align: left;
+}
+.container .product .left--list h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.container .product .left--list .list {
+  width: 100%;
+  display: flex;
+}
+.container .product .left--list .list--img {
+  width: 45%;
+}
+.container .product .left--list .list div {
+  height: 68%;
+  font-weight: 600;
+  align-self: center;
+  line-height: 35px;
+}
+.container .product .left--list .list div h6 {
+  font-size: 12px;
+}
+.container .product .left--list .list div span {
+  font-size: 12px;
+  color: darkgray;
+  margin: 0px 3px;
+}
+.container .product .left--list .list div span .green {
+  color: darkgreen;
+}
+.container .product .main {
+  width: 30%;
+  height: 85%;
+}
+.container .product .main--proyekt {
+  width: 100%;
+}
+.container .product .main--proyekt .main--img {
+  width: 85%;
+}
+.container .product .right {
+  width: 40%;
+  height: 95%;
+}
+.container .product .right--proyekt {
+  width: 100%;
+}
+.container .product .right--proyekt .right--img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #top {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+  }
+  .container .product {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+  .container .product .left {
+    width: 85%;
+  }
+  .container .main {
+    width: 85% !important;
+    height: 85%;
+  }
+  .container .main .main--img {
+    width: 100%;
+  }
+  .container .right {
+    width: 100% !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+  #top {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+  }
+  .container .product {
+    width: 100%;
+    height: 80%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap !important;
+  }
+  .container .product .left {
+    width: 85%;
+  }
+  .container .main {
+    width: 85% !important;
+    height: 85% !important;
+  }
+  .container .main .main--img {
+    width: 100% !important;
+  }
+  .container .right {
+    width: 100% !important;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+  }
+  .container .product {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+  .container .product .left {
+    width: 50% !important;
+    height: 60% !important;
+  }
+  .container .main {
+    width: 50% !important;
+    height: 60% !important;
+  }
+  .container .main .main--img {
+    width: 85% !important;
+  }
+  .container .right {
+    width: 100% !important;
+    height: 86% !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+  }
+  .container .product {
+    width: 85% !important;
+    height: 80% !important;
+    flex-direction: column;
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+  .container .product .left {
+    width: 30% !important;
+  }
+  .container .main {
+    width: 30%;
+    height: 85%;
+  }
+  .container .main .main--img {
+    width: 85% !important;
+  }
+  .container .right {
+    width: 40% !important;
+    height: 86% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

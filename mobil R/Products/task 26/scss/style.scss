@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 0px auto;
+
+    .product {
+        width: 85%;
+        height: 80%;
+        align-items: end;
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+        gap: 20px;
+
+        .left {
+            width: 30%;
+
+            &--list {
+                width: 100%;
+                list-style: none;
+                text-align: left;
+
+                h5 {
+                    font-size: 20px;
+                    text-transform: uppercase;
+
+                }
+
+                .list {
+                    width: 100%;
+                    display: flex;
+
+                    &--img {
+
+                        width: 45%;
+
+
+                    }
+
+                    div {
+                        height: 68%;
+                        font-weight: 600;
+                        align-self: center;
+                        line-height: 35px;
+
+                        h6 {
+                            font-size: 12px;
+
+                        }
+
+                        span {
+                            font-size: 12px;
+                            color: darkgray;
+                            margin: 0px 3px;
+
+                            .green {
+
+                                color: darkgreen;
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+        .main {
+            width: 30%;
+            height: 85%;
+
+            &--proyekt {
+                width: 100%;
+
+
+                .main--img {
+                    width: 85%;
+                }
+            }
+        }
+
+        .right {
+            width: 40%;
+            height: 95%;
+
+            &--proyekt {
+                width: 100%;
+
+                .right--img {
+                    width: 100%;
+                    height: 100%;
+
+                }
+            }
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #top {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+
+        .product {
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+            gap: 0px;
+
+            .left {
+                width: 85%;
+
+
+            }
+        }
+
+        .main {
+            width: 85% !important;
+            height: 85%;
+
+            .main--img {
+                width: 100%;
+            }
+        }
+
+        .right {
+            width: 100% !important;
+
+        }
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    #top {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+
+        .product {
+        width: 100%;
+        height: 80%;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            gap: 0px;
+            flex-wrap: wrap !important;
+
+            .left {
+                width: 85%;
+
+
+            }
+        }
+
+        .main {
+            width: 85% !important;
+            height: 85% !important;
+
+            .main--img {
+                width: 100% !important;
+            }
+        }
+
+        .right {
+            width: 100% !important;
+
+        }
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+
+        .product {
+            width: 100%;
+            height: 100%;
+            flex-direction: row;
+            display: flex;
+            gap: 0px;
+            flex-wrap: wrap;
+
+            .left {
+                width: 50% !important;
+                height: 60% !important;
+            }
+        }
+
+        .main {
+            width: 50% !important;
+            height: 60% !important;
+
+            .main--img {
+                width: 85% !important;
+            }
+        }
+
+        .right {
+            width: 100% !important;
+            height: 86% !important;
+        }
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+
+        .product {
+            width: 85% !important;
+            height: 80% !important;
+            flex-direction: column;
+            display: flex;
+            gap: 0px;
+            flex-wrap: wrap;
+
+            .left {
+                width: 30% !important;
+            }
+        }
+
+        .main {
+            width: 30%;
+            height: 85%;
+
+            .main--img {
+                width: 85% !important;
+            }
+        }
+
+        .right {
+            width: 40% !important;
+            height: 86% !important;
+        }
+    }
+
+}
