@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 85%;
+  height: 85%;
+  margin: 0px auto;
+  display: flex;
+}
+.container .header {
+  width: 30%;
+  display: grid;
+  align-content: center;
+}
+.container .header--project {
+  width: 100%;
+  height: 70%;
+}
+.container .header .header--img {
+  width: 90%;
+}
+.container .card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .card .corvet {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.container .card .corvet--img {
+  width: 50%;
+  text-align: center;
+}
+.container .card .corvet--img h5 {
+  font-size: 19px;
+  line-height: 30px;
+}
+.container .card .corvet--img a {
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: crimson;
+}
+.container .card .corvet--img .price {
+  display: flex;
+  /* margin: 0px auto; */
+  justify-content: center;
+  gap: 6px;
+  line-height: 40px;
+}
+.container .card .corvet--img .price h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(128, 128, 128, 0.5607843137);
+}
+.container .card .corvet--img .price h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #189739;
+}
+.container .box {
+  width: 40%;
+}
+.container .box--project {
+  width: 100%;
+}
+.container .box .box--img {
+  width: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #top {
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .container .header {
+    width: 95%;
+    display: grid;
+    justify-items: end;
+  }
+  .container .header .header--project {
+    width: 90%;
+    height: 100%;
+  }
+  .container .header .header--project .header--img {
+    width: 90%;
+  }
+  .container .card {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card .corvet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .container .card .corvet .corvet--img {
+    width: 50%;
+  }
+  .container .box {
+    width: 90%;
+  }
+  .container .box .box--project {
+    width: 100%;
+  }
+  .container .box .box--project .box--img {
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #top {
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .container .header {
+    width: 95%;
+    display: grid;
+    justify-items: end;
+  }
+  .container .header .header--project {
+    width: 90%;
+    height: 100%;
+  }
+  .container .header .header--project .header--img {
+    width: 90%;
+  }
+  .container .card {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card .corvet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .container .card .corvet .corvet--img {
+    width: 50%;
+  }
+  .container .box {
+    width: 90%;
+  }
+  .container .box .box--project {
+    width: 100%;
+  }
+  .container .box .box--project .box--img {
+    width: 100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #top {
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .container .header {
+    width: 95%;
+    display: grid;
+    justify-items: end;
+  }
+  .container .header .header--project {
+    width: 90%;
+    height: 100%;
+  }
+  .container .header .header--project .header--img {
+    width: 90%;
+  }
+  .container .card {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card .corvet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .container .card .corvet .corvet--img {
+    width: 50%;
+  }
+  .container .box {
+    width: 90%;
+  }
+  .container .box .box--project {
+    width: 100%;
+  }
+  .container .box .box--project .box--img {
+    width: 100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+  }
+  .container .header {
+    width: 30%;
+    display: grid;
+    justify-items: end;
+  }
+  .container .header .header--project {
+    width: 100%;
+    height: 70%;
+  }
+  .container .header .header--project .header--img {
+    width: 90%;
+  }
+  .container .card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container .card .corvet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .container .card .corvet .corvet--img {
+    width: 50%;
+  }
+  .container .box {
+    width: 40%;
+  }
+  .container .box .box--project {
+    width: 100%;
+  }
+  .container .box .box--project .box--img {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
